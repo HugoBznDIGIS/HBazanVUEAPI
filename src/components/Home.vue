@@ -16,6 +16,7 @@ const serieStore = useSerieStore();
             <!-- VUE al igual que React, cada elemento de un v-for debe contener un "key" -->
             <!-- El cual en este caso es el ID de la serie -->
             <Serie v-for="itemSerie in serieStore.serieData" :key="itemSerie.id" :serie="itemSerie" :admin="false"/>
+            <!-- Este es un comentario para mostrar el COMMIT de GIT -->
         </div>
     </div>
 </template>
